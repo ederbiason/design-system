@@ -6,6 +6,14 @@ export default {
     component: Text,
     args: {
         children: 'Lorem ipsum'  
+    },
+    argTypes: {
+        size: { 
+            options: ['sm', 'md', 'lg'],
+            control: {
+                type: 'inline-radio'
+            }
+        }
     }
 } as Meta<TextProps>
 
@@ -31,5 +39,12 @@ export const CustomComponent: StoryObj<TextProps> = {
                 Testando
             </p>
         )
+    },
+    argTypes: {
+        children: {
+            table: {
+                disable: true
+            }
+        }
     }
 }
