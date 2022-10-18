@@ -3,6 +3,7 @@ import { FormEvent, useState } from "react"
 import axios from "axios"
 
 import { Checkbox, Button, Heading, Logo, Text, TextInput } from "../components"
+import { Link } from 'react-router-dom'
 import { Envelope, Lock } from "phosphor-react"
 
 export const SignIn = () => {
@@ -67,9 +68,11 @@ export const SignIn = () => {
           </Text>
         </label>
 
-        <Button type="submit" className="mt-4">
-          Entrar na plataforma
-        </Button>
+        <Link to="/ignite-lab">
+          <Button type="submit" className="mt-4">
+            Entrar na plataforma
+          </Button>
+        </Link>
       </form>
 
       <footer className="flex flex-col items-center gap-4 mt-8">
@@ -81,7 +84,7 @@ export const SignIn = () => {
 
         <Text asChild size="sm">
           <a href="" className="text-gray-400 underline underline-offset-2 hover:text-gray-200">
-            Não possui conta crie uma agora
+            Não possui conta ? Crie uma agora.
           </a>
         </Text>
       </footer>
