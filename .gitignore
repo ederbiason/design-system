@@ -128,3 +128,6 @@ dist
 
 # Storybook
 storybook-static
+
+# Vite config time stamp
+vite.config.ts.timestamp-1666116137384.mjs
