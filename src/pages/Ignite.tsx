@@ -1,9 +1,9 @@
-import { ArrowDown, ShieldCheck } from "phosphor-react"
+import { ArrowDown, ChatText, DesktopTower, RocketLaunch, ShieldCheck, UsersThree } from "phosphor-react"
 import { Button, IgniteLogo, Text } from "../components"
 
 export const Ignite = () => {
   return (
-    <div className="bg-[#111114] h-screen w-screen">
+    <div className="bg-[#111114] h-full w-full">
         <div className=""> 
             <header className="bg-[#111114] py-4 flex justify-center">
                 <div className="flex items-center gap-32">
@@ -87,7 +87,51 @@ export const Ignite = () => {
                     </div>
 
                     
-                </div><ArrowDown size={24} weight="bold" className="text-[#00875f] mt-16" />
+                </div>
+
+                <ArrowDown size={24} weight="bold" className="text-[#00875f] mt-16" />
+            </section>
+
+            <section className="flex">
+                <div className="flex flex-col gap-20">
+                    <Text className="text-2xl font-black text-white">
+                        Assista ao vídeo e descubra como o Ignite vai transformar sua carreira como dev
+                    </Text>
+
+                    <div className="grid grid-cols-2 gap-5">
+                        <div>
+                            <RocketLaunch size={40} className="text-[#00875f] mb-3" />
+                            <Text className="text-sm font-black">
+                                Desafios práticos com aplicações reais
+                            </Text>
+                        </div>
+
+                        <div>
+                            <UsersThree size={40} className="text-[#00875f] mb-3" />
+                            <Text className="text-sm font-black">
+                                Comunidade exclusiva de alunos e alunas
+                            </Text>
+                        </div>
+
+                        <div>
+                            <DesktopTower size={40} className="text-[#00875f] mb-3" />
+                            <Text className="text-sm font-black">
+                                Plataforma completa que une todo ecossistema
+                            </Text>
+                        </div>
+
+                        <div>
+                            <ChatText size={40} className="text-[#00875f] mb-3" />
+                            <Text className="text-sm font-black">
+                                Fórum exclusivo para dúvidas técnicas
+                            </Text>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+
+                </div>
             </section>
         </div>
     </div>
