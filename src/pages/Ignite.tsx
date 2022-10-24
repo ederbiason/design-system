@@ -2,6 +2,8 @@ import { ArrowDown, ChatText, DesktopTower, RocketLaunch, ShieldCheck, UsersThre
 import { Button, IgniteLogo, Text } from "../components"
 
 export const Ignite = () => {
+  const videoURL = "https://youtu.be/N817rUkStGc"
+
   return (
     <div className="bg-[#111114] h-full w-full">
         <div className=""> 
@@ -92,8 +94,8 @@ export const Ignite = () => {
                 <ArrowDown size={24} weight="bold" className="text-[#00875f] mt-16" />
             </section>
 
-            <section className="flex">
-                <div className="flex flex-col gap-20">
+            <section className="flex mx-24 pt-[60px] pb-[80px] gap-10 items-center">
+                <div className="flex flex-col gap-20 w-[42%]">
                     <Text className="text-2xl font-black text-white">
                         Assista ao vídeo e descubra como o Ignite vai transformar sua carreira como dev
                     </Text>
@@ -129,8 +131,17 @@ export const Ignite = () => {
                     </div>
                 </div>
 
-                <div>
+                <div className="w-[58%]">
+                    <video 
+                        src={videoURL}
+                        poster="https://global-uploads.webflow.com/61d83a2ebb0ae01ab96e841a/6324a390134c6e45bd87ce97_Thumb-video-vsl.jpg"
+                        className="rounded-t-md"
+                    >
 
+                    </video>
+                    <div className="text-center bg-[#202024] py-4 rounded-b-md text-[#fba94c]">
+                        ⚠️  Antes de continuar assista o vídeo até o final
+                    </div>
                 </div>
             </section>
         </div>
