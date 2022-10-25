@@ -144,6 +144,36 @@ export const Ignite = () => {
                     </div>
                 </div>
             </section>
+
+            <section className="flex items-center mx-24 gap-2 pt-16 pb-20">
+                <div className="flex flex-col w-1/2">
+                    <Text className="uppercase font-bold text-xs text-[#00b37e] mb-4">
+                        O Ignite é pra mim?
+                    </Text>
+
+                    <Text className="text-2xl font-black text-white">
+                        Programa de especialização e desenvolvimento
+                    </Text>
+
+                    <div className="flex flex-col pt-6 pb-8 gap-6">
+                        <Text className="text-[#a8a8b3] text-sm">
+                            Se você tem uma base sólida em programação, o Ignite vai te ajudar a dominar tecnologias alinhadas com o que o mercado precisa e te aproximar das melhores oportunidades da sua carreira.
+                        </Text>
+    
+                        <Text className="text-[#a8a8b3] text-sm">
+                            Através de uma metodologia prática, baseada nos pilares do foco, prática e grupo, você vai se preparar para os desafios do mundo real, além de desenvolver habilidades comportamentais para se destacar no mercado.
+                        </Text>
+                    </div>
+
+                    <Button className="text-xs bg-[#00875f] text-white uppercase hover:bg-[#015F43] transition-colors w-fit px-6 py-4">
+                        Garantir minha vaga
+                    </Button>
+                </div>
+
+                <div className="w-1/2">
+                    <img src="https://global-uploads.webflow.com/61d83a2ebb0ae01ab96e841a/62d027bcf19f9ebc3dbcd162_programmer-ignite.png" alt="Programador imagem" />
+                </div>
+            </section>
         </div>
     </div>
   )
