@@ -174,6 +174,20 @@ export const Ignite = () => {
                     <img src="https://global-uploads.webflow.com/61d83a2ebb0ae01ab96e841a/62d027bcf19f9ebc3dbcd162_programmer-ignite.png" alt="Programador imagem" />
                 </div>
             </section>
+
+            <section>
+                <div className="flex flex-col items-center gap-6">
+                    <IgniteLogo />
+
+                    <Text className="text-2xl font-black text-white">
+                        O que você vai aprender
+                    </Text>
+
+                    <Text className="text-center text-sm text-[#a8a8b3] max-w-[607px]">
+                        Como assinante do Ignite, você vai ter acesso imediato e ilimitado a todas as trilhas pra escolher a tecnologia mais alinhada com seu objetivo para se especializar.
+                    </Text>
+                </div>
+            </section>
         </div>
     </div>
   )
