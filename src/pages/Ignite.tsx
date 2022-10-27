@@ -187,6 +187,32 @@ export const Ignite = () => {
                         Como assinante do Ignite, você vai ter acesso imediato e ilimitado a todas as trilhas pra escolher a tecnologia mais alinhada com seu objetivo para se especializar.
                     </Text>
                 </div>
+
+                <div className="flex items-center justify-evenly">
+                    <Text className="text-2xl font-black text-white p-4">
+                        <a href="">
+                            ReactJS
+                        </a>
+                    </Text>
+
+                    <Text className="text-2xl font-black text-white p-4">
+                        <a href="">
+                            React Native
+                        </a>
+                    </Text>
+                        
+                    <Text className="text-2xl font-black text-white p-4">
+                        <a href="">
+                            Node.JS
+                        </a>
+                    </Text>
+
+                    <Text className="text-2xl font-black text-white p-4">
+                        <a href="">
+                            Ignite Higher
+                        </a>
+                    </Text>
+                </div>
             </section>
         </div>
     </div>
